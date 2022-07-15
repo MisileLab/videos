@@ -2,7 +2,7 @@
 name = "certifi"
 version = "2022.5.18.1"
 description = "Python package for providing Mozilla's CA Bundle."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -10,7 +10,7 @@ python-versions = ">=3.6"
 name = "charset-normalizer"
 version = "2.0.12"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5.0"
 
@@ -21,7 +21,7 @@ unicode_backport = ["unicodedata2"]
 name = "click"
 version = "8.1.3"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -32,7 +32,7 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 name = "click-default-group"
 version = "1.2.2"
 description = "Extends click.Group to invoke a command without explicit subcommand name"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -43,7 +43,7 @@ click = "*"
 name = "cloup"
 version = "0.13.1"
 description = "Adds features to Click: option groups, constraints, subcommand sections and help themes."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -54,7 +54,7 @@ click = ">=7.1,<9.0"
 name = "colorama"
 version = "0.4.4"
 description = "Cross-platform colored terminal text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -62,7 +62,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "colour"
 version = "0.1.5"
 description = "converts and manipulates various color representation (HSL, RVB, web, X11, ...)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -73,7 +73,7 @@ test = ["nose"]
 name = "commonmark"
 version = "0.9.1"
 description = "Python parser for the CommonMark Markdown spec"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -84,7 +84,7 @@ test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 name = "cython"
 version = "0.29.30"
 description = "The Cython compiler for writing C extensions for the Python language."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -92,7 +92,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "decorator"
 version = "5.1.1"
 description = "Decorators for Humans"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -100,7 +100,7 @@ python-versions = ">=3.5"
 name = "glcontext"
 version = "2.3.6"
 description = "Portable OpenGL Context"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -108,7 +108,7 @@ python-versions = "*"
 name = "idna"
 version = "3.3"
 description = "Internationalized Domain Names in Applications (IDNA)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -116,7 +116,7 @@ python-versions = ">=3.5"
 name = "isosurfaces"
 version = "0.1.0"
 description = "Construct isolines/isosurfaces over a 2D/3D scalar field defined by a function (not a uniform grid)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -125,9 +125,9 @@ numpy = "*"
 
 [[package]]
 name = "manim"
-version = "0.15.2"
+version = "0.16.0"
 description = "Animation engine for explanatory math videos."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7,<3.11"
 
@@ -143,7 +143,7 @@ mapbox-earcut = ">=0.12.10,<0.13.0"
 moderngl = ">=5.6.3,<6.0.0"
 moderngl-window = ">=2.3.0,<3.0.0"
 networkx = ">=2.5,<3.0"
-numpy = ">=1.9,<2.0"
+numpy = ">=1.19,<2.0"
 Pillow = ">=8.4,<10.0"
 pycairo = ">=1.19,<2.0"
 pydub = ">=0.25.1,<0.26.0"
@@ -165,7 +165,7 @@ gui = ["dearpygui (>=1.3.1,<2.0.0)"]
 name = "manimpango"
 version = "0.4.1"
 description = "Bindings for Pango for using with Manim."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -173,7 +173,7 @@ python-versions = ">=3.7"
 name = "mapbox-earcut"
 version = "0.12.11"
 description = "Python bindings for the mapbox earcut C++ polygon triangulation library."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -187,7 +187,7 @@ test = ["pytest"]
 name = "moderngl"
 version = "5.6.4"
 description = "ModernGL: High performance rendering for Python 3"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -198,7 +198,7 @@ glcontext = ">=2,<3"
 name = "moderngl-window"
 version = "2.4.1"
 description = "A cross platform helper library for ModernGL making window creation and resource loading simple"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -223,7 +223,7 @@ trimesh = ["trimesh (>=3.2.6,<4)", "scipy (>=1.3.2)"]
 name = "multipledispatch"
 version = "0.6.0"
 description = "Multiple dispatch"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -234,7 +234,7 @@ six = "*"
 name = "networkx"
 version = "2.8.2"
 description = "Python package for creating and manipulating graphs and networks"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.8"
 
@@ -249,7 +249,7 @@ test = ["pytest (>=7.1)", "pytest-cov (>=3.0)", "codecov (>=2.1)"]
 name = "numpy"
 version = "1.22.4"
 description = "NumPy is the fundamental package for array computing with Python."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.8"
 
@@ -257,7 +257,7 @@ python-versions = ">=3.8"
 name = "pillow"
 version = "9.1.1"
 description = "Python Imaging Library (Fork)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -269,7 +269,7 @@ tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "pa
 name = "pycairo"
 version = "1.21.0"
 description = "Python interface for cairo"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -277,7 +277,7 @@ python-versions = ">=3.7"
 name = "pydub"
 version = "0.25.1"
 description = "Manipulate audio with an simple and easy high level interface"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -285,7 +285,7 @@ python-versions = "*"
 name = "pyglet"
 version = "1.5.26"
 description = "Cross-platform windowing and multimedia library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -293,7 +293,7 @@ python-versions = "*"
 name = "pygments"
 version = "2.12.0"
 description = "Pygments is a syntax highlighting package written in Python."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -301,7 +301,7 @@ python-versions = ">=3.6"
 name = "pyobjc-core"
 version = "8.5"
 description = "Python<->ObjC Interoperability Module"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -309,7 +309,7 @@ python-versions = ">=3.6"
 name = "pyobjc-framework-cocoa"
 version = "8.5"
 description = "Wrappers for the Cocoa frameworks on macOS"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -320,7 +320,7 @@ pyobjc-core = ">=8.5"
 name = "pyrr"
 version = "0.10.3"
 description = "3D mathematical functions using NumPy"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -332,7 +332,7 @@ numpy = "*"
 name = "requests"
 version = "2.27.1"
 description = "Python HTTP for Humans."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
@@ -350,7 +350,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 name = "rich"
 version = "12.4.4"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.3,<4.0.0"
 
@@ -365,7 +365,7 @@ jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
 name = "scipy"
 version = "1.8.1"
 description = "SciPy: Scientific Library for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.8,<3.11"
 
@@ -376,7 +376,7 @@ numpy = ">=1.17.3,<1.25.0"
 name = "screeninfo"
 version = "0.8"
 description = "Fetch location and size of physical screens."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.2,<4.0.0"
 
@@ -388,7 +388,7 @@ pyobjc-framework-Cocoa = {version = "*", markers = "sys_platform == \"darwin\""}
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -396,7 +396,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "skia-pathops"
 version = "0.7.2"
 description = "Python access to operations on paths using the Skia library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -407,7 +407,7 @@ testing = ["pytest", "coverage", "pytest-xdist", "pytest-randomly"]
 name = "srt"
 version = "3.5.2"
 description = "A tiny library for parsing, modifying, and composing SRT files."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7"
 
@@ -415,7 +415,7 @@ python-versions = ">=2.7"
 name = "tqdm"
 version = "4.64.0"
 description = "Fast, Extensible Progress Meter"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 
@@ -432,7 +432,7 @@ telegram = ["requests"]
 name = "urllib3"
 version = "1.26.9"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 
@@ -445,7 +445,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 name = "watchdog"
 version = "2.1.8"
 description = "Filesystem events monitoring"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -455,7 +455,7 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.4"
-content-hash = "e982d96afb5ad1beede95412deda0aeb09e71a911b5a7490824c2f237cace51e"
+content-hash = "974acf615c8190ab49a517147656940b31128e0c552278f1ecaa5f80f530abd0"
 
 [metadata.files]
 certifi = [
@@ -584,8 +584,8 @@ isosurfaces = [
     {file = "isosurfaces-0.1.0.tar.gz", hash = "sha256:fa1b44e5e59d2f429add49289ab89e36f8dcda49b7badd99e0beea273be331f4"},
 ]
 manim = [
-    {file = "manim-0.15.2-py3-none-any.whl", hash = "sha256:79d1a052cf498e18367c48443d2d8f578a0cddad6eded62eaaf8a970f8991e53"},
-    {file = "manim-0.15.2.tar.gz", hash = "sha256:ba851ac5e877214c4aae97f28bffe483efe97cb68159480897e13e0b9e9a86a4"},
+    {file = "manim-0.16.0-py3-none-any.whl", hash = "sha256:4f0da46d3febf15cea9481ed7a8ccfc7885c90bd1fdb577a903ef57b2ebfb69f"},
+    {file = "manim-0.16.0.tar.gz", hash = "sha256:a565c11c92f0ab1089bd62b6e833f8975b4afa4702e00c980e90f0fd0477fb50"},
 ]
 manimpango = [
     {file = "ManimPango-0.4.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:fc70c1ae3bb853b7244ea2c9b50c908e9d7a93062ec68315872e38771cc66969"},

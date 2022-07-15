@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.10.4"
-manim = "^0.15.2"
+manim = "^0.16.0"
 
 
 [build-system]
