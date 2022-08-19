@@ -614,7 +614,7 @@ dependencies = [
  "futures-lite",
  "hex",
  "hexasphere",
- "image 0.24.2",
+ "image 0.24.3",
  "naga",
  "once_cell",
  "parking_lot 0.12.1",
@@ -1864,15 +1864,14 @@ dependencies = [
 
 [[package]]
 name = "image"
-version = "0.24.2"
+version = "0.24.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28edd9d7bc256be2502e325ac0628bde30b7001b9b52e0abe31a1a9dc2701212"
+checksum = "7e30ca2ecf7666107ff827a8e481de6a132a9b687ed3bb20bb1c144a36c00964"
 dependencies = [
  "bytemuck",
  "byteorder",
  "color_quant",
  "jpeg-decoder 0.2.6",
- "num-iter",
  "num-rational 0.4.1",
  "num-traits",
  "png 0.17.5",
@@ -2653,13 +2652,13 @@ checksum = "1df8c4ec4b0627e53bdf214615ad287367e482558cf84b109250b37464dc03ae"
 
 [[package]]
 name = "plotters"
-version = "0.3.2"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9428003b84df1496fb9d6eeee9c5f8145cb41ca375eb0dad204328888832811f"
+checksum = "716b4eeb6c4a1d3ecc956f75b43ec2e8e8ba80026413e70a3f41fd3313d3492b"
 dependencies = [
  "chrono",
  "font-kit",
- "image 0.24.2",
+ "image 0.24.3",
  "lazy_static",
  "num-traits",
  "pathfinder_geometry",
@@ -3390,7 +3389,7 @@ dependencies = [
  "js-sys",
  "log",
  "naga",
- "parking_lot 0.11.2",
+ "parking_lot 0.12.1",
  "raw-window-handle",
  "smallvec",
  "wasm-bindgen",
@@ -3416,7 +3415,7 @@ dependencies = [
  "fxhash",
  "log",
  "naga",
- "parking_lot 0.11.2",
+ "parking_lot 0.12.1",
  "profiling",
  "raw-window-handle",
  "smallvec",
@@ -3453,7 +3452,7 @@ dependencies = [
  "metal",
  "naga",
  "objc",
- "parking_lot 0.11.2",
+ "parking_lot 0.12.1",
  "profiling",
  "range-alloc",
  "raw-window-handle",
