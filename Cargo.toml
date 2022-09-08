@@ -11,4 +11,4 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "0.8", features = ["dynamic"] }
-plotters = "0.3.3"
+plotters = "0.3.4"
